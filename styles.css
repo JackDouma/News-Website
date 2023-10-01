@@ -1,0 +1,157 @@
+.image
+{
+    grid-area: footer;
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+}
+.image > img
+{
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: auto;
+    padding: 20px 2px;
+}
+
+.masthead
+{
+    height: 400px;
+    position: relative;
+    background-color: #55c1ff;
+}
+.masthead > div
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.masthead > div > h1
+{
+    color: #fff;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* textbox */
+.textbox
+{
+    display: grid;
+    align-items: center;
+    background-color: #fff;
+}
+.textbox > h2
+{
+    font-size: 60px;
+    color: #000;
+    display: block;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textbox > div
+{
+    width: 750px;
+    border: 15px solid #55c1ff;
+    background-color: white;
+    padding: 50px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textbox > div > p
+{
+    font-size: 24px;
+    color: #000; 
+}
+
+/* row one */
+.news
+{
+    background-color: #fff; 
+    grid-template-columns: repeat(3, 33%);
+    display: grid;
+    column-gap: auto;
+    justify-content: center;
+}
+.header > h2
+{
+    font-size: 60px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+.news > div > h3
+{
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+}
+.news > div > h5
+{
+    font-size: 30px;
+    color: lightgray;
+    text-align: center;
+    font-style: italic;
+}
+.news > div > img
+{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer
+{
+    grid-area: footer;
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+    background-color: #55c1ff;
+}
+.footer > img
+{
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: auto;
+    padding: 20px 2px;
+}
+.footer > div
+{
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer > div > h1
+{
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+}
+.footer > div > h2
+{
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+}
+.footer > div > h3
+{
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+}
